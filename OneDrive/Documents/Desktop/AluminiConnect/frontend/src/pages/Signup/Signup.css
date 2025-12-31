@@ -1,0 +1,115 @@
+/* Background */
+.signup-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+background:black;
+
+
+
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+}
+
+/* Card for choice & forms */
+.choice-card, .form-card {
+  background: #fff;
+  padding: 40px 50px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  width: 100%;
+  max-width: 420px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Title */
+.signup-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+.signup-subtitle {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+/* Buttons */
+.choice-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.choice-btn {
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.choice-btn.alumni {
+  background:red
+}
+
+.choice-btn.alumni:hover {
+  background: #5a77e5;
+  transform: scale(1.05);
+}
+
+.choice-btn.student {
+  background: #a777e3;
+}
+
+.choice-btn.student:hover {
+  background: #9461d1;
+  transform: scale(1.05);
+}
+
+/* Back button */
+.back-btn {
+  margin-top: 20px;
+  background: #f44336;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #d32f2f;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .choice-card, .form-card {
+    padding: 25px 20px;
+  }
+
+  .signup-title {
+    font-size: 22px;
+  }
+
+  .choice-btn {
+    font-size: 15px;
+    padding: 12px;
+  }
+}

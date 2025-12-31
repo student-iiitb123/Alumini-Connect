@@ -1,0 +1,64 @@
+.success-stories {
+  padding: 2rem;
+  background-color: #fdfdfd;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin: 2rem;
+}
+
+.success-title {
+  font-size: 1.8rem;
+  color: #2f3542;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.story-cards {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.story-card {
+  background: #ffffff;
+  border: 1px solid #f1f2f6;
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 280px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.story-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.story-img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid #ffa502;
+}
+
+.story-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2d3436;
+}
+
+.story-job {
+  font-size: 0.95rem;
+  color: #636e72;
+  margin-bottom: 0.5rem;
+}
+
+.story-text {
+  font-style: italic;
+  color: #57606f;
+  font-size: 0.95rem;
+}

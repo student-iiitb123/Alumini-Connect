@@ -1,0 +1,13 @@
+.footer {
+  background: #111;          /* very dark background */
+  color: #ddd;              /* light gray text */
+  text-align: center;
+  padding: 25px 15px;
+  font-size: 14px;
+  
+  border-top: 2px solid #444; /* subtle top border */
+}
+
+.footer p {
+  margin: 6px 0;
+}

@@ -1,0 +1,53 @@
+/* Main container */
+.header-container {
+  width: 100%;
+  background-color: red; /* 🔴 red bar */
+  padding: 14px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Navbar UL */
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* center items */
+  align-items: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav items */
+.nav ul li {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Links */
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+/* Hover */
+.nav ul li a:hover {
+  color: #ffd700; /* golden hover */
+}
+
+/* Login Button */
+.login-btn a {
+  padding: 8px 18px;
+  background: white;
+  color: red !important;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.login-btn a:hover {
+  background: #ffd700;
+  color: black !important;
+}

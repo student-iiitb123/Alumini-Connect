@@ -1,0 +1,59 @@
+@media (min-width: 1024px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 30px;
+    background: #fff;
+    color: #000;
+    border-bottom: 2px solid #ddd;
+    min-height: 100px;
+  }
+
+  .logo img {
+    height: 80px;
+    width: auto;
+    max-width: 120px;
+    object-fit: contain;
+  }
+
+  .mathmagandi img,
+  .Ashokchakra img {
+    height: 80px;
+    width: auto;
+    max-width: 120px;
+    object-fit: contain;
+  }
+
+  .headings {
+    text-align: center;
+    flex-grow: 1;
+  }
+
+  .head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-font {
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    margin: 4px 0;
+    color: #000;
+  }
+
+  .text-uppercase {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+  }
+
+  .logo-slogen {
+    font-size: 14px;
+    font-style: italic;
+    color: #444;
+    margin-top: 5px;
+  }
+}

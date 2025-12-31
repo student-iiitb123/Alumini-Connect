@@ -1,0 +1,30 @@
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  margin: 40px 20px;
+}
+
+.stat-card {
+  background: linear-gradient(135deg, #ff4e50, #ff6f61);
+  color: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(255, 78, 80, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-card h3 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.stat-card p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
